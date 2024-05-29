@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portefolios | T.BS</title>
+    <link href="/style.css" rel="stylesheet">
+</head>
+<body>
+    <section class ="start_page" id ="accueil">
+        <div class ="barre_nav" >
+            <a>Barthoux Sauze Thomas</a>
+            <nav class ="navigation" style="left: 40%;">
+                <p style="font-size: larger;"> Projet <strong>G</strong><strong>S</strong><strong>B</strong> Appli Compte-Rendu </p>
+                <br>
+
+            </nav>
+        </div>           
+            <img src="/image/codage-informatique-scaled.jpeg" class="fond_img" style="filter: blur(2px);">
+            <header >
+                <div class ="acceuil_bts">
+                    <h1 style = "color: white"><strong>A</strong>telier <strong>P</strong>rofessionel <br> Projet GSB <br> Appli Compte-Rendu</h1>
+                </div>   
+        </header>
+        <br>
+        <div class="bts">
+            <h2 style="margin-top: 40%;" id="bts">Présentation : </h2>
+            <div class="block_ligne" style ="width:77px"></div>
+                <p class="intro">
+                    L’entreprise GSB est une entreprise pharmaceutique engageant des visiteurs pour faire la promotion de leurs médicaments. 
+                    <br>
+                    À la fin de chaque opération, les visiteurs doivent remplir un compte rendu dans lequel ils décrivent les médicaments qui ont été présentés, les échantillons qui ont été offerts et s’ils ont donné une documentation ou non.
+                    <br><br>
+                    L’entreprise veut désormais que les comptes rendus soient numérisés pour permettre une meilleure organisation, pour cela, elle demande de mettre en place une application en ligne utilisant PHP pour la gestion de la base de données.
+                    <br><br>
+                </p>
+                <div class="block_ligne" style ="width: 77px"></div>
+            </div>
+            <div>
+                <h2>Fonctionnalités : </h2>
+                <div class="block_ligne" style ="width:77px"></div>
+                <div class="ag-format-container">
+                    <div class="ag-courses_box">
+                        <div class="ag-courses_item">
+                        <div href="#" class="ag-courses-item_link">
+                        <div class="ag-courses-item_bg"></div>
+                            <div class="ag-courses-item_title">
+                                Portail de connexion
+                            </div>
+                            <div class="ag-courses-item_date-box">
+                                (code fourni)
+                            <span class="ag-courses-item_date">
+                            </span>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="ag-courses_item">
+                        <div href="#" class="ag-courses-item_link">
+                        <div class="ag-courses-item_bg"></div>
+                        <div class="ag-courses-item_title">
+                            Ajout de <br> Compte-Rendu
+                        </div>
+                        <div class="ag-courses-item_date-box">
+                            (code a compléter)
+                        </div>
+                        </div>
+                    </div>
+                    <div class="ag-courses_item">
+                        <div href="#" class="ag-courses-item_link">
+                    <div class="ag-courses-item_bg"></div>
+                        <div class="ag-courses-item_title">
+                            Modification de Compte-Rendu
+                        </div>
+                        
+                    </div>
+                    </div>
+                    <div class="ag-courses_item">
+                        <div href="#" class="ag-courses-item_link">
+                            <div class="ag-courses-item_bg">
+                            </div>
+                            <div class="ag-courses-item_title">
+                                Consultation de médicaments
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ag-courses_item">
+                        <div href="#" class="ag-courses-item_link">
+                            <div class="ag-courses-item_bg">
+                            </div>
+                            <div class="ag-courses-item_title">
+                                Ajout et Consultation de Praticien
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ag-courses_item">
+                        <div href="#" class="ag-courses-item_link">
+                            <div class="ag-courses-item_bg">
+                            </div>
+                            <div class="ag-courses-item_title">
+                                Consultation de Rapport
+                                <div class="ag-courses-item_date-box">
+                                    Par Région / Visiteur / Période
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2>Répartitions du Projet : </h2>
+        <div class="block_ligne" style ="width:77px"></div>
+        <p style="text-align: center;">
+            Le projet à était réaliser avec l'architecture MVC.
+            <br>
+            Pour respecter les codes du model d'architecture MVC, on as répartie les fonctionnalités en différents controlleur.
+        </p>
+        <br>
+        <div class="repartition">
+            <div class="PartiGauche">
+                <br>
+                <div>
+                    <p>Controlleur Compte-Rendu :</p>
+                    <br>
+                    <ul>
+                        <li>c_ajouterCompteRendu.php</li>
+                        <li>c_modifierCompteRendu.php</li>
+                        <li>c_consulterCompteRenduPeriode.php</li>
+                        <li>c_consulterCompteRenduRegion.php</li>
+                        <li>c_consulterCompteRenduSecteur.php</li>
+                        <li>c_consulterCompteRenduVisiteur.php</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="PartiImage">
+                <img src="/image/Code typing-bro(1).png" height="200px" width="200px">
+            </div>
+            <div class="PartiDroite">
+                <br>
+                <p>Controlleur pour les autres fonctionnalités</p>
+                <br>
+                <ul>
+                    <li>c_connexion.php</li>
+                    <li>c_ajouterPraticien.php</li>
+                    <li>c_consulterPraticien.php</li>
+                    <li>c_consulterMedicaments.php</li>
+                </ul>
+            </div>
+        </div>
+        <br>
+        <div class="block_ligne" style ="width:77px"></div>
+        <div class="">
+            <p style="text-align: center; font-size:large; margin-top: -70px;"><h2>Vioici mon rapport du projet</h2></p> <br>
+            <div class="Rapport" style="height: 350; width: 300; ">
+                <a href="/Document/Documentation_GSB.pdf" download="Projet_GSBAppliCR_2emeAnnees (ver. 2.0.1).pdf"><img src="image/Download-SIO2.png" height="75%" width="75%" style="margin-left: 15%; margin-right: 15%;"></a>
+            </div> 
+        </div>
+            <br> <br> <br> <br> <br>
+            <a class="rtnpageacceil" href="/pageBTS.html#Formation" style="margin-left: 42%; margin-right: 43%;">Retour a mes activités</a>
+            <br> <br> <br> <br> <br>
+        </div>
+    </body>
+    <footer class="footer">
+        <br>
+        <br>
+        <p>Création : Barthoux Sauze Thomas</p>
+        <p> Copyright © 2023 Barthoux Sauze Thomas</p>
+        <br>
+        <br>
+    </footer>
+</html>
